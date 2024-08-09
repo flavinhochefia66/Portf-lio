@@ -1,0 +1,74 @@
+
+body{
+color:rgb(255, 255, 255);
+background-color: #212121;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+.card {
+    border: solid;
+    padding: 0px 10px 10px 10px;
+    max-width: 20%;
+    background-color: #131313;
+    border-radius: 10px;
+    transition: transform 0.5s ease;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+}
+
+
+.projetos{
+
+display: flex;
+
+flex-direction: row;
+
+gap: 10px;
+}
+
+.hyperlink{
+
+color: white;
+
+}
+
+.linguagens{
+margin-top: 10px;
+
+
+}
+
+.img{
+
+display: flex;
+flex-direction: row;
+
+}
+
+.texto{
+
+margin-left: 10px;
+max-width: 30%;
+
+}
+
+span{
+
+color: rgb(255, 0, 0);
+
+}
+
+header{
+
+display: flex;
+justify-content: space-between;
+flex-direction: row;
+align-items: center;
+margin: 0px 50px;
+
+}
+.github-btn {
+    cursor: pointer;
+}
